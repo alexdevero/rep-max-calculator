@@ -1,0 +1,76 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-size: 1rem;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
+
+label + input {
+  margin-top: 6px;
+}
+
+.App {
+  margin-top: 32px;
+  max-width: 420px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.table-inputs {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 21px;
+  text-align: left;
+}
+
+.table-inputs fieldset {
+  width: 48%;
+}
+
+.table-results {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-results tr + tr {
+  border-top: 1px solid #eee;
+}
+
+.table-results td {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 15px;
+}
+
+.table-results td:first-of-type {
+  text-align: left;
+}
+
+.table-results td:last-of-type {
+  text-align: right;
+}
