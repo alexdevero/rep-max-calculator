@@ -8,7 +8,8 @@
     "fitness",
     "health",
     "react",
-    "reactjs"
+    "reactjs",
+    "training"
   ],
   "main": "src/index.tsx",
   "dependencies": {
